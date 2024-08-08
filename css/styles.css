@@ -1,6 +1,116 @@
+:root {
+  --font-family: "Golos Text", sans-serif;
+  --second-family: "Merriweather", sans-serif;
+  --third-family: "Montserrat", sans-serif;
+  --color-gray: #595653;
+  --color-gray2: #313131;
+  --color-white: #fff;
+  --color-black: #1f1f1f;
+  --color-section-city: #e9ded4;
+}
+
 *,
 *::after,
 *::before {
   padding: 0;
   margin: 0;
+}
+
+.main {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.city {
+  margin: 0 auto;
+  width: 100%;
+  background: var(--color-section-city);
+}
+.city__wrapper {
+  width: 1366px;
+  height: 700px;
+  margin: 0 auto;
+  overflow: hidden;
+  background-image: url("../images/png/background-city.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin-top: 26px;
+  margin-left: 72px;
+}
+.logo__images {
+  display: flex;
+  gap: 0 2px;
+}
+.logo__img {
+  width: 23px;
+  height: 32px;
+}
+.logo__text {
+  width: 147px;
+  margin-left: 6px;
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 108%;
+  text-transform: uppercase;
+  color: var(--color-gray);
+}
+
+.content {
+  width: 542px;
+  height: 444px;
+  margin-top: 62px;
+  margin-left: 72px;
+}
+.content__title {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 110%;
+  text-transform: uppercase;
+  color: var(--color-gray2);
+}
+.content__title_center {
+  text-align: center;
+}
+.content__title_right {
+  text-align: right;
+}
+.content__text {
+  margin-top: 24px;
+  margin-bottom: 40px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+  text-align: center;
+  color: var(--color-gray2);
+}
+.content__btns {
+  display: flex;
+  gap: 0 16px;
+}
+.content__btn {
+  border-radius: 66px;
+  width: 263px;
+  height: 72px;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 130%;
+  text-align: center;
+}
+.content__btn_white-text {
+  background: var(--color-black);
+  color: var(--color-white);
+}
+.content__btn_black-text {
+  border: 2px solid var(--color-black);
+  background: inherit;
+  color: var(--color-black);
 }/*# sourceMappingURL=styles.css.map */
