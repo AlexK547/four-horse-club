@@ -128,9 +128,9 @@
     }
 }
 
-// ----- section Running line top -----
+// ----- section Running line -----
 
-.running-line-top {
+.running-line {
     width: 100%;
     margin: 0 auto;
     background: var(--color-red);
@@ -417,6 +417,7 @@
     width: 100%;
     margin: 0 auto;
     background: var(--color-white);
+    margin-bottom: 139px;
 
     &__wrapper {
         width: 1366px;
@@ -522,5 +523,31 @@
             line-height: 120%;
             color: #3057a2;
         }
+    }
+}
+
+
+// ----- Footer -----
+.footer {
+    margin: 0 auto;
+    width: 100%;
+    background: var(--color-section-city);
+
+    &__wrapper {
+        width: 1366px;
+        padding-top: 41px;
+        padding-left: 144px;
+        padding-bottom: 70px;
+        margin: 0 auto;
+    }
+    &__text {
+        width: 1222px;
+
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 120%;
+        color: var(--color-gray2);
+        opacity: 0.6;
     }
 }
