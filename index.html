@@ -12,7 +12,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-      href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
       rel="stylesheet"
     >
     <link rel="stylesheet" href="css/styles.css">
@@ -79,8 +79,8 @@
         </div>
       </section>
 
-      <section class="running-line-top">
-        <div class="running-line-top__wrapper">
+      <section class="running-line">
+        <div class="running-line__wrapper">
           <div class="line-content">
             <div class="line-content__text">
               <p>Дело помощи утопающим — дело рук самих утопающих!</p>
@@ -175,15 +175,162 @@
           </div>
         </div>
       </section>
-      <!-- <section class="stages">Stages</section>
 
-      <section class="participants">Participants</section>
+      <section class="stages">
+        <div class="stages__wrapper">
+          <div class="stages__top">
+            <h2 class="stages__title">Этапы преображения Васюков</h2>
+            <p class="stages__title-text">Будущие источники обогащения васюкинцев</p>
+          </div>
+          <div class="stages__content">
+            <table class="stages__table">
+              <tbody>
+                <tr>
+                  <td class="stages__item">
+                    <div class="stages__item-wrapper">
+                      <div class="stages__item-number">1</div>
+                      <p class="stages__item-text">Строительство железнодорожной магистрали Москва-Васюки</p>
+                    </div>
+                  </td>
+                  <td class="stages__item">
+                    <div class="stages__item-wrapper">
+                      <div class="stages__item-number">2</div>
+                      <p class="stages__item-text">Открытие фешенебельной гостиницы «Проходная пешка» и других небоскрёбов</p>
+                    </div>
+                  </td>
+                  <td class="stages__item stages__item_right-none" rowspan="2">
+                    <div class="stages__item-wrapper">
+                      <div class="stages__item-number">3</div>
+                      <p class="stages__item-text">Поднятие сельского хозяйства в радиусе на тысячу километров: производство овощей, фруктов, икры, шоколадных конфет</p>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="stages__item">
+                    <div class="stages__item-wrapper">
+                      <div class="stages__item-number">4</div>
+                      <p class="stages__item-text">Строительство дворца для турнира</p>
+                    </div>
+                  </td>
+                  <td class="stages__item">
+                    <div class="stages__item-wrapper">
+                      <div class="stages__item-number">5</div>
+                      <p class="stages__item-text">Размещение гаражей для гостевого автотранспорта</p>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="stages__item stages__item_bottom-none">
+                    <div class="stages__item-wrapper">
+                      <div class="stages__item-number">6</div>
+                      <p class="stages__item-text">Постройка сверхмощной радиостанции для передачи всему миру сенсационных результатов</p>
+                    </div>
+                  </td>
+                  <td class="stages__item stages__item_right-none stages__item_bottom-none" colspan="2">
+                    <div class="stages__item-wrapper">
+                      <div class="stages__item-number">7</div>
+                      <p class="stages__item-text stages__item-text_width">Создание аэропорта «Большие Васюки» с регулярным отправлением почтовых самолётов и дирижаблей во все концы света, включая Лос-Анжелос и Мельбурн</p>
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <img src="./images/png/stage-plane.png" alt="plane" class="stages__img">
+          </div>
+        </div>
+      </section>
 
-      <section class="running-line-bottom">
-        Running line
-      </section> -->
+      <section class="participants">
+        <div class="participants__wrapper">
+          <h2 class="participants__title">Участники турнира</h2>
+          <div class="slider">
+            <div class="slider__btns">
+              <button type="button" class="slider__btn-left"></button>
+              <div class="slider__btns-numbers">
+                <p class="slider__count-participant">3</p>
+                <p>/</p>
+                <p class="slider__total-participant">6</p>
+              </div>
+              <button type="button" class="slider__btn-right"></button>
+            </div>
+            <div class="slider__items">
+              <div class="slider__card">
+                <img src="./images/png/participant-img.png" alt="Participant" class="slider__card-img">
+                <div class="slider__card-title">Хозе-Рауль Капабланка</div>
+                <div class="slider__card-text">Чемпион мира по шахматам</div>
+                <button type="button" class="slider__card-btn">Подробнее</button>
+              </div>
+              <div class="slider__card">
+                <img src="./images/png/participant-img.png" alt="Participant" class="slider__card-img">
+                <div class="slider__card-title">Эммануил Ласкер</div>
+                <div class="slider__card-text">Чемпион мира по шахматам</div>
+                <button type="button" class="slider__card-btn">Подробнее</button>
+              </div>
+              <div class="slider__card">
+                <img src="./images/png/participant-img.png" alt="Participant" class="slider__card-img">
+                <div class="slider__card-title">Александр Алехин</div>
+                <div class="slider__card-text">Чемпион мира по шахматам</div>
+                <button type="button" class="slider__card-btn">Подробнее</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="running-line">
+        <div class="running-line__wrapper">
+          <div class="line-content">
+            <div class="line-content__text">
+              <p>Дело помощи утопающим — дело рук самих утопающих!</p>
+              <img
+                src="./images/icons/dot-text.svg"
+                alt="dot"
+                class="line-content__dot"
+              >
+              <p>Шахматы двигают вперед не только культуру, но и экономику!</p>
+              <img
+                src="./images/icons/dot-text.svg"
+                alt="dot"
+                class="line-content__dot"
+              >
+              <p>Лед тронулся, господа присяжные заседатели!</p>
+              <img
+                src="./images/icons/dot-text.svg"
+                alt="dot"
+                class="line-content__dot"
+              >
+            </div>
+            <div class="line-content__text">
+              <p>Дело помощи утопающим — дело рук самих утопающих!</p>
+              <img
+                src="./images/icons/dot-text.svg"
+                alt="dot"
+                class="line-content__dot"
+              >
+              <p>Шахматы двигают вперед не только культуру, но и экономику!</p>
+              <img
+                src="./images/icons/dot-text.svg"
+                alt="dot"
+                class="line-content__dot"
+              >
+              <p>Лед тронулся, господа присяжные заседатели!</p>
+              <img
+                src="./images/icons/dot-text.svg"
+                alt="dot"
+                class="line-content__dot"
+              >
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 
-    <footer class="footer"></footer>
+    <footer class="footer">
+      <div class="footer__wrapper">
+        <div class="footer__text">
+          Все персонажи, события и цитаты являются вымышленными и не принадлежат создателям сайта. С подробностями можно познакомиться в главе XXXIV романа Ильи Ильфа и Евгения Петрова «Двенадцать стульев».
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
