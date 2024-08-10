@@ -381,4 +381,108 @@
   position: absolute;
   right: 81px;
   bottom: -2px;
+}
+
+.participants {
+  width: 100%;
+  margin: 0 auto;
+  background: var(--color-white);
+}
+.participants__wrapper {
+  width: 1366px;
+  padding-top: 200px;
+  padding-left: 144px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.participants__title {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 54px;
+  line-height: 120%;
+  text-transform: uppercase;
+  color: #313131;
+}
+
+.slider {
+  position: relative;
+}
+.slider__btns {
+  width: 151px;
+  height: 44px;
+  position: absolute;
+  right: 145px;
+  top: -56px;
+  display: flex;
+  align-items: center;
+}
+.slider__btn-left {
+  border: none;
+  width: 44px;
+  height: 44px;
+  background: url("../images/icons/slider-button-left.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.slider__btn-right {
+  border: none;
+  width: 44px;
+  height: 44px;
+  background: url("../images/icons/slider-button-left.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: rotate(180deg);
+}
+.slider__btns-numbers {
+  width: 35px;
+  height: 11px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 14px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  color: #313131;
+}
+.slider__items {
+  display: flex;
+  gap: 0 94px;
+  padding-top: 59px;
+  padding-left: 37px;
+}
+.slider__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.slider__card-title {
+  padding-top: 29px;
+  padding-bottom: 6px;
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 120%;
+  color: #313131;
+}
+.slider__card-text {
+  padding-bottom: 20px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 120%;
+  color: #313131;
+  opacity: 0.6;
+}
+.slider__card-btn {
+  border: 1px solid #3057a2;
+  border-radius: 62px;
+  width: 113px;
+  height: 35px;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 120%;
+  color: #3057a2;
 }/*# sourceMappingURL=styles.css.map */
