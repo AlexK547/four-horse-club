@@ -1,7 +1,6 @@
 :root {
     --font-family: "Golos Text", sans-serif;
     --second-family: "Merriweather", sans-serif;
-    --third-family: "Montserrat", sans-serif;
 
     --color-gray: #595653;
     --color-gray2: #313131;
@@ -51,7 +50,6 @@
 
     &__images {
         display: flex;
-        gap: 0 2px;
     }
     &__img {
         width: 23px;
@@ -362,7 +360,7 @@
         font-weight: 500;
         font-size: 20px;
         line-height: 120%;
-        color: #313131;
+        color: var(--color-gray2);
     }
     &__item {
         vertical-align: baseline;
@@ -390,7 +388,7 @@
         border-radius: 60px;
         width: 36px;
         height: 36px;
-        background: #fff;
+        background: var(--color-white);
         font-weight: 600;
         display: flex;
         align-items: center;
@@ -421,7 +419,6 @@
 
     &__wrapper {
         width: 1366px;
-        // height: 584px;
         padding-top: 200px;
         padding-left: 144px;
         margin: 0 auto;
@@ -434,7 +431,7 @@
         font-size: 54px;
         line-height: 120%;
         text-transform: uppercase;
-        color: #313131;
+        color: var(--color-gray2);
     }
 }
 
@@ -479,7 +476,7 @@
         font-weight: 400;
         font-size: 16px;
         line-height: 120%;
-        color: #313131;
+        color: var(--color-gray2);
     }
 
     &__items {
@@ -500,7 +497,7 @@
             font-weight: 600;
             font-size: 24px;
             line-height: 120%;
-            color: #313131;
+            color: var(--color-gray2);
         }
         &-text {
             padding-bottom: 20px;
@@ -508,11 +505,11 @@
             font-weight: 400;
             font-size: 20px;
             line-height: 120%;
-            color: #313131;
+            color: var(--color-gray2);
             opacity: 0.6;
         }
         &-btn {
-            border: 1px solid #3057a2;
+            border: 1px solid var(--color-blue);
             border-radius: 62px;
             width: 113px;
             height: 35px;
@@ -521,7 +518,7 @@
             font-weight: 500;
             font-size: 16px;
             line-height: 120%;
-            color: #3057a2;
+            color: var(--color-blue);
         }
     }
 }
