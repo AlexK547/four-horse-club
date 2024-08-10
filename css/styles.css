@@ -283,4 +283,102 @@
 .table__text_bottom-none {
   border-bottom: none;
   padding-bottom: 0px;
+}
+
+.stages {
+  width: 100%;
+  margin: 0 auto;
+  background: var(--color-white);
+}
+.stages__wrapper {
+  width: 1366px;
+  height: 584px;
+  padding-top: 183px;
+  padding-left: 144px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.stages__top {
+  height: 130px;
+  width: 806px;
+  position: relative;
+}
+.stages__title {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 54px;
+  line-height: 120%;
+  text-transform: uppercase;
+  color: var(--color-gray2);
+}
+.stages__title-text {
+  position: absolute;
+  right: 225px;
+  bottom: 11px;
+  height: 48px;
+  width: 280px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 120%;
+  color: var(--color-blue);
+}
+.stages__content {
+  position: relative;
+  margin-top: 53px;
+}
+.stages__table {
+  width: 1222px;
+  height: 399px;
+  border-collapse: collapse;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  color: #313131;
+}
+.stages__item {
+  vertical-align: baseline;
+  width: 394px;
+  height: 112px;
+  overflow: hidden;
+  border-bottom: 20px solid var(--color-white);
+  border-right: 20px solid var(--color-white);
+  background-image: url("../images/png/stege-fon.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.stages__item_right-none {
+  border-right: none;
+}
+.stages__item_bottom-none {
+  border-bottom: none;
+}
+.stages__item-wrapper {
+  display: flex;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.stages__item-number {
+  border-radius: 60px;
+  width: 36px;
+  height: 36px;
+  background: #fff;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.stages__item-text {
+  margin-left: 16px;
+  margin-bottom: 20px;
+  width: 300px;
+}
+.stages__item-text_width {
+  width: 446px;
+}
+.stages__img {
+  position: absolute;
+  right: 81px;
+  bottom: -2px;
 }/*# sourceMappingURL=styles.css.map */

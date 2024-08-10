@@ -306,3 +306,108 @@
         padding-bottom: 0px;
     }
 }
+
+
+// ----- section Stages -----
+
+.stages {
+    width: 100%;
+    margin: 0 auto;
+    background: var(--color-white);
+
+    &__wrapper {
+        width: 1366px;
+        height: 584px;
+        padding-top: 183px;
+        padding-left: 144px;
+        margin: 0 auto;
+        overflow: hidden;
+
+    }
+    &__top {
+        height: 130px;
+        width: 806px;
+        position: relative;
+    }
+    &__title {
+        font-family: var(--second-family);
+        font-weight: 400;
+        font-size: 54px;
+        line-height: 120%;
+        text-transform: uppercase;
+        color: var(--color-gray2);
+    }
+    &__title-text {
+        position: absolute;
+        right: 225px;
+        bottom: 11px;
+        height: 48px;
+        width: 280px;
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 120%;
+        color: var(--color-blue);
+    }
+
+    &__content {
+        position: relative;
+        margin-top: 53px;
+    }
+    &__table {
+        width: 1222px;
+        height: 399px;
+        border-collapse: collapse;
+
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 120%;
+        color: #313131;
+    }
+    &__item {
+        vertical-align: baseline;
+        width: 394px;
+        height: 112px;
+        overflow: hidden;
+        border-bottom: 20px solid var(--color-white);
+        border-right: 20px solid var(--color-white);
+        background-image: url("../images/png/stege-fon.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    &__item_right-none {
+        border-right: none;
+    }
+    &__item_bottom-none {
+        border-bottom: none;
+    }
+    &__item-wrapper {
+        display: flex;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    &__item-number {
+        border-radius: 60px;
+        width: 36px;
+        height: 36px;
+        background: #fff;
+        font-weight: 600;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    &__item-text {
+        margin-left: 16px;
+        margin-bottom: 20px;
+        width: 300px;
+    }
+    &__item-text_width {
+        width: 446px;
+    }
+    &__img {
+        position: absolute;
+        right: 81px;
+        bottom: -2px;
+    }
+}
